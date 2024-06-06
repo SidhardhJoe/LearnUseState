@@ -19,7 +19,7 @@ export default function App() {
         </TouchableOpacity>
       </View>
       <View>
-        <Text style={styles.desctxt1}>Press the below button to increase the count</Text>
+        <Text style={styles.desctxt1}>Press the below button to decrease the count</Text>
       </View>
       <View style={styles.buttonplus}>
         <TouchableOpacity onPress={() => setCount(count - 1)}>
